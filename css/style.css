@@ -162,9 +162,8 @@ button:active {
   transform: translateY(1px);
 }
 
-/* Guest button spans both columns since 7 items is odd */
+/* Guest button — slightly dimmer, but sits normally in the grid now */
 .guest-btn {
-  grid-column: 1 / -1;
   background: rgba(0, 0, 0, 0.5);
   border-color: rgba(255, 255, 255, 0.25);
   color: rgba(255, 255, 255, 0.8);
