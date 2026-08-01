@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Neko Clan Games - Choose Player</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <div class="card-container">
+    <div class="card">
+      <h1 id="title">Who Are You?</h1>
+      <p class="subtitle">Choose your path:</p>
+
+      <div class="player-select">
+        <button class="player-btn" data-player="elijah">Elijah</button>
+        <button class="player-btn" data-player="hester">Hester</button>
+        <button class="player-btn" data-player="jonathan">Jonathan</button>
+        <button class="player-btn" data-player="lyka">Lyka</button>
+        <button class="player-btn" data-player="marissa">Marissa</button>
+      </div>
+
+      <div class="guest-divider">
+        <span>or</span>
+      </div>
+
+      <button id="guestBtn" class="guest-btn">I'm a guest</button>
+    </div>
+  </div>
+
+  <script src="js/select-player.js"></script>
+</body>
+</html>
