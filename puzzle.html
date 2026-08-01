@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Neko Clan Games - Puzzle</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <div class="card-container">
+    <div class="card">
+      <h1 id="puzzleTitle">Puzzle</h1>
+      <p class="subtitle" id="puzzleQuestion">Loading...</p>
+
+      <div class="input-group">
+        <input 
+          type="text" 
+          id="answerInput" 
+          placeholder="enter answer..." 
+          autocomplete="off"
+        />
+        <button id="submitBtn">Enter</button>
+      </div>
+
+      <p id="message" class="message"></p>
+    </div>
+  </div>
+
+  <script src="js/puzzle.js"></script>
+</body>
+</html>

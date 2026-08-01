@@ -173,3 +173,20 @@ button:active {
   background: rgba(0, 0, 0, 0.9);
   border-color:  #ffffff;
 }
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Pixelify Sans", monospace;
+  color: #ffffff;
+}
+
+body.bg-guest {
+  background-image: url("../assets/minecraft.png");
+}
