@@ -54,9 +54,9 @@ h1 {
 .subtitle {
   font-size: 22px;
   letter-spacing: 4px;
-  color: rgba(255, 255, 255, 0.9);
+    color: rgba(0, 0, 0, 0.85);
   margin-bottom: 20px;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+  text-shadow: 0 1px 3px rgba(255, 255, 255, 0.6);
 }
 
 .input-group {
