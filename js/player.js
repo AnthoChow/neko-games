@@ -1,5 +1,5 @@
 const guestPuzzles = [
-  { question: question: "ꖌᒷᒷ!¡╎リ⍊ᒷリℸ𝙹∷ǁ", answer: "KeepInventory" },
+  { question: "ꖌᒷᒷ!¡╎リ⍊ᒷリℸ𝙹∷ǁ", answer: "KeepInventory" },
   { question: "General public clue #2 goes here...", answer: "answer2" },
 ];
 
