@@ -162,44 +162,15 @@ button:active {
   transform: translateY(1px);
 }
 
-/* "or" divider between named players and guest */
-.guest-divider {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  margin: 20px 0;
-  color: rgba(255, 255, 255, 0.4);
-  font-size: 12px;
-  letter-spacing: 2px;
-}
-
-.guest-divider::before,
-.guest-divider::after {
-  content: "";
-  flex: 1;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
-}
-
-.guest-divider span {
-  padding: 0 12px;
-}
-
-/* Guest button, slightly less prominent than named players */
+/* Guest button spans both columns since 7 items is odd */
 .guest-btn {
-  width: 100%;
+  grid-column: 1 / -1;
   background: rgba(0, 0, 0, 0.5);
-  border: 1px solid rgba(255, 255, 255, 0.25);
-  border-radius: 2px;
-  padding: 12px 20px;
-  font-size: 13px;
-  font-family: inherit;
-  letter-spacing: 2px;
+  border-color: rgba(255, 255, 255, 0.25);
   color: rgba(255, 255, 255, 0.8);
-  cursor: pointer;
-  transition: border-color 0.2s ease, background 0.2s ease;
 }
 
 .guest-btn:hover {
-  border-color: rgba(255, 255, 255, 0.6);
   background: rgba(0, 0, 0, 0.7);
+  border-color: rgba(255, 255, 255, 0.6);
 }
