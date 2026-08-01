@@ -13,8 +13,8 @@ function submitAnswer() {
   }
 
   // Check if they typed the first secret word (e.g. "valve")
-  if (userText === "valve") {
-    message.textContent = "Access Granted! Redirecting...";
+  if (userText === "vault") {
+    message.textContent = "Access Granted! Welcome!";
     message.className = "message success";
     
     // Redirect after 1 second

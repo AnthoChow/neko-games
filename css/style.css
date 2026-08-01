@@ -20,7 +20,7 @@ body {
   padding: 20px;
 }
 
-/* No box, no border, no shadow — just centered content */
+
 .card {
   background: transparent;
   border: none;
@@ -68,7 +68,7 @@ h1 {
   justify-content: center;
 }
 
-/* Transparent input, thin border, no fill */
+
 input[type="text"] {
   background: rgba(0, 0, 0, 0.75);
   border: 1px solid rgba(255, 255, 255, 0.35);
@@ -93,7 +93,7 @@ input[type="text"]:focus {
   background: rgba(0, 0, 0, 0.9);
 }
 
-/* Same treatment for the button */
+
 button {
   background: rgba(0, 0, 0, 0.75);
   border: 1px solid rgba(255, 255, 255, 0.35);
