@@ -19,7 +19,7 @@ function submitAnswer() {
     
     // Redirect after 1 second
     setTimeout(() => {
-      window.location.href = "./valve/index.html";
+      window.location.href = "./players.html";
     }, 1000);
   } else {
     message.textContent = "Incorrect word. Try again!";
