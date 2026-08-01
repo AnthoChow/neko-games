@@ -26,7 +26,7 @@ function submitAnswer() {
     return;
   }
 
-  if (userText === puzzleData.answer) {
+  if (userText === puzzleData.answer.toLowerCase()) {
     message.textContent = "Correct!";
     message.className = "message success";
 
