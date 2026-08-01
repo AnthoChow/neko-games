@@ -131,3 +131,75 @@ button:active {
 .message.success {
   color: #4ade80;
 }
+
+/* Grid of player buttons */
+.player-select {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.player-btn {
+  background: rgba(0, 0, 0, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 2px;
+  padding: 14px 10px;
+  font-size: 14px;
+  font-family: inherit;
+  letter-spacing: 2px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.player-btn:hover {
+  border-color: #ffffff;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.player-btn:active {
+  transform: translateY(1px);
+}
+
+/* "or" divider between named players and guest */
+.guest-divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.guest-divider::before,
+.guest-divider::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.guest-divider span {
+  padding: 0 12px;
+}
+
+/* Guest button, slightly less prominent than named players */
+.guest-btn {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 2px;
+  padding: 12px 20px;
+  font-size: 13px;
+  font-family: inherit;
+  letter-spacing: 2px;
+  color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.guest-btn:hover {
+  border-color: rgba(255, 255, 255, 0.6);
+  background: rgba(0, 0, 0, 0.7);
+}
