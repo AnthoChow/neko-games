@@ -1,9 +1,8 @@
 const guestPuzzles = [
   { question: "/rgualmee ꖌᒷᒷ!¡╎リ⍊ᒷリℸ𝙹∷ǁ ____", answer: "/gamerule keepInventory true", bg: "bg-guest-1" },
   { question: "-.... .--- ---.. .-.. .-. .- -.", answer: "axolotl", bg: "bg-guest-2" },
-  { question: "General public clue #3 goes here...", answer: "answer3", bg: "bg-guest-3" },
-  { question: "General public clue #4 goes here...", answer: "answer4", bg: "bg-guest-4" },
-  { question: "General public clue #5 goes here...", answer: "answer5", bg: "bg-guest-5" },
+  { question: "Dandelion + Poppy + Orchid + Lily", answer: "224", bg: "bg-guest-3" },
+  { question: "eTq3RtM5 - Poem Line #23 - Love", answer: "and the universe said I love you because you are love.", bg: "bg-guest-4" },
 ];
 
 const puzzleIndex = parseInt(localStorage.getItem("puzzleIndex")) || 0;
