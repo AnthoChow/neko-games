@@ -1,7 +1,7 @@
 const guestPuzzles = [
   { question: "/rgualmee ꖌᒷᒷ!¡╎リ⍊ᒷリℸ𝙹∷ǁ ____", answer: "/gamerule keepInventory true", bg: "bg-guest-1" },
   { question: "-.... .--- ---.. .-.. <span class='underline-hint'>.-.</span> <span class='underline-hint'>.-</span> -.", answer: "axolotl", bg: "bg-guest-2" },
-  { question: "Dandelion + Poppy + Orchid + Lily", answer: "2254", bg: "bg-guest-3" },
+  { question: "June 7 2022 Achievement", answer: "Sneak 100", bg: "bg-guest-3" },
   { question: "eTq3RtM5 - Poem Line #23 - Love", answer: "and the universe said I love you because you are love.", bg: "bg-guest-4" },
 ];
 
