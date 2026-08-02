@@ -30,13 +30,6 @@ const submitBtn = document.getElementById("submitBtn");
 const message = document.getElementById("message");
 const puzzleQuestion = document.getElementById("puzzleQuestion");
 
-if (puzzleData.type === "hanoi-multi") {
-  puzzleQuestion.innerHTML = "Solve the tower and input the answer";
-  initHanoiMulti(puzzleData);
-} else {
-  puzzleQuestion.innerHTML = puzzleData.question;
-}
-
 function submitAnswer() {
   const userText = answerInput.value.trim().toLowerCase();
 
