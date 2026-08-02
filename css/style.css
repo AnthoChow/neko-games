@@ -203,3 +203,8 @@ body.bg-guest-4 {
 body.bg-guest-5 {
   background-image: url("../assets/minecraft5.png");
 }
+
+.underline-hint {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}

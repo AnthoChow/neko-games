@@ -1,6 +1,6 @@
 const guestPuzzles = [
   { question: "/rgualmee ꖌᒷᒷ!¡╎リ⍊ᒷリℸ𝙹∷ǁ ____", answer: "/gamerule keepInventory true", bg: "bg-guest-1" },
-  { question: "- . . . . . - - - - - - . . . - . . ^ . - . ^ . - - .", answer: "axolotl", bg: "bg-guest-2" },
+  { question: "-.... .--- ---.. .-.. <span class='underline-hint'>.-.</span> <span class='underline-hint'>.-</span> -.", answer: "axolotl", bg: "bg-guest-2" },
   { question: "Dandelion + Poppy + Orchid + Lily", answer: "2254", bg: "bg-guest-3" },
   { question: "eTq3RtM5 - Poem Line #23 - Love", answer: "and the universe said I love you because you are love.", bg: "bg-guest-4" },
 ];
@@ -16,7 +16,7 @@ const submitBtn = document.getElementById("submitBtn");
 const message = document.getElementById("message");
 const puzzleQuestion = document.getElementById("puzzleQuestion");
 
-puzzleQuestion.textContent = puzzleData.question;
+puzzleQuestion.innerHTML = puzzleData.question;
 
 function submitAnswer() {
   const userText = answerInput.value.trim().toLowerCase();
