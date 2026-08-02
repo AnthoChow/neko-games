@@ -1,6 +1,6 @@
 const guestPuzzles = [
   { question: "/rgualmee ꖌᒷᒷ!¡╎リ⍊ᒷリℸ𝙹∷ǁ ____", answer: "/gamerule keepInventory true", bg: "bg-guest-1" },
-  { question: "General public clue #2 goes here...", answer: "answer2", bg: "bg-guest-2" },
+  { question: "-.... .--- ---.. .-.. .-. .- -.", answer: "axolotl", bg: "bg-guest-2" },
 ];
 
 const puzzleIndex = parseInt(localStorage.getItem("puzzleIndex")) || 0;
