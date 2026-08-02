@@ -1,14 +1,13 @@
 const guestPuzzles = [
-  { question: "ꖌᒷᒷ!¡╎リ⍊ᒷリℸ𝙹∷ǁ", answer: "KeepInventory" },
-  { question: "General public clue #2 goes here...", answer: "answer2" },
+  { question: "ꖌᒷᒷ!¡╎リ⍊ᒷリℸ𝙹∷ǁ", answer: "KeepInventory", bg: "bg-guest-1" },
+  { question: "General public clue #2 goes here...", answer: "answer2", bg: "bg-guest-2" },
 ];
 
 const puzzleIndex = parseInt(localStorage.getItem("puzzleIndex")) || 0;
-
-// Set guest background
-document.body.classList.add("bg-guest");
-
 const puzzleData = guestPuzzles[puzzleIndex];
+
+document.body.className = "";
+document.body.classList.add(puzzleData.bg);
 
 const answerInput = document.getElementById("answerInput");
 const submitBtn = document.getElementById("submitBtn");

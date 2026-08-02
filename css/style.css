@@ -184,6 +184,10 @@ body {
   color: #ffffff;
 }
 
-body.bg-guest {
+body.bg-guest-1 {
   background-image: url("../assets/minecraft.png");
+}
+
+body.bg-guest-2 {
+  background-image: url("../assets/minecraft2.png");
 }
