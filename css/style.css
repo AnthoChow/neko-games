@@ -206,7 +206,7 @@ body.bg-guest-5 {
 
 body.bg-meowdy {
   background-image: url("../assets/cat2.jpg");
-  background-position: center top;
+  background-position: center bottom;
 }
 
 .underline-hint {
