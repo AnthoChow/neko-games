@@ -1,25 +1,24 @@
-const guestPuzzles = [
-  { question: "/rgualmee ꖌᒷᒷ!¡╎リ⍊ᒷリℸ𝙹∷ǁ ____", answer: "/gamerule keepInventory true", bg: "bg-guest-1" },
-  { question: "-.... .--- ---.. .-.. <span class='underline-hint'>.-.</span> <span class='underline-hint'>.-</span> -.", answer: "axolotl", bg: "bg-guest-2" },
-  { question: "June 7 2022 Achievement", answer: "Sneak 100", bg: "bg-guest-3" },
-  { question: "eTq3RtM5 - Poem Line #23 - Love", answer: "and the universe said I love you because you are love.", bg: "bg-guest-4" },
-    ];
-{
+const players = {
+  guest: {
+    puzzles: [
+      { question: "/rgualmee ꖌᒷᒷ!¡╎リ⍊ᒷリℸ𝙹∷ǁ ____", answer: "/gamerule keepInventory true", bg: "bg-guest-1" },
+      { question: "-.... .--- ---.. .-.. <span class='underline-hint'>.-.</span> <span class='underline-hint'>.-</span> -.", answer: "axolotl", bg: "bg-guest-2" },
+      { question: "June 7 2022 Achievement", answer: "Sneak 100", bg: "bg-guest-3" },
+      { question: "eTq3RtM5 - Poem Line #23 - Love", answer: "and the universe said I love you because you are love.", bg: "bg-guest-4" },
+    ]
+  },
   meowdy: {
     puzzles: [
       { question: "Meowdy's clue #1 goes here...", answer: "answer1", bg: "bg-meowdy" },
       { question: "Meowdy's clue #2 goes here...", answer: "answer2", bg: "bg-meowdy" },
       { question: "Meowdy's clue #3 goes here...", answer: "answer3", bg: "bg-meowdy" },
       { question: "Meowdy's clue #4 goes here...", answer: "answer4", bg: "bg-meowdy" },
-      { question: "Meowdy's clue #5 goes here...", answer: "answer5", bg: "bg-meowdy" },
     ]
   }
 };
-
 const currentPlayer = localStorage.getItem("currentPlayer");
 const puzzleIndex = parseInt(localStorage.getItem("puzzleIndex")) || 0;
 
-// Safety net — send them back if something's missing/wrong
 if (!currentPlayer || !players[currentPlayer]) {
   window.location.href = "./players.html";
 }

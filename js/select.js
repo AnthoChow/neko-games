@@ -13,4 +13,3 @@ document.querySelectorAll(".player-btn").forEach(btn => {
 });
 
 const players_supported = ["guest", "meowdy"];
-
