@@ -204,10 +204,6 @@ body.bg-guest-5 {
   background-image: url("../assets/minecraft5.png");
 }
 
-body.bg-meowdy {
-  background-image: url("../assets/cat2.jpg");
-  background-position: center bottom;
-}
 
 .underline-hint {
   text-decoration: underline;

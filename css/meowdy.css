@@ -1,0 +1,108 @@
+body.bg-meowdy {
+  background-image: url("../assets/cat2.jpg");
+  background-position: center bottom;
+}
+
+.hanoi-game {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 40px;
+  height: 160px;
+  margin: 20px 0;
+}
+
+.peg {
+  position: relative;
+  width: 100px;
+  height: 140px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  cursor: pointer;
+}
+
+.peg::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 6px;
+  height: 130px;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 3px;
+  z-index: 0;
+}
+
+.peg::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100px;
+  height: 6px;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 3px;
+}
+
+.peg.selected::before {
+  background: #38bdf8;
+}
+
+.disk {
+  height: 18px;
+  border-radius: 4px;
+  margin-bottom: 2px;
+  background: linear-gradient(180deg, #38bdf8, #0ea5e9);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  z-index: 1;
+}
+
+.hanoi-moves {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+
+.letter-slots {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0 10px;
+  font-size: 24px;
+  letter-spacing: 4px;
+}
+
+.letter-slot {
+  width: 28px;
+  text-align: center;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+}
+
+.hanoi-selector {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.hanoi-select-btn {
+  width: 32px;
+  height: 32px;
+  background: rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.hanoi-select-btn.solved {
+  background: rgba(56, 189, 248, 0.4);
+  border-color: #38bdf8;
+  cursor: default;
+}
+
+.hanoi-select-btn:not(.solved):hover {
+  border-color: #fff;
+}

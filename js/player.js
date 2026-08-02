@@ -8,14 +8,10 @@ const players = {
     ]
   },
   meowdy: {
-    puzzles: [
-      { question: "Meowdy's clue #1 goes here...", answer: "answer1", bg: "bg-meowdy" },
-      { question: "Meowdy's clue #2 goes here...", answer: "answer2", bg: "bg-meowdy" },
-      { question: "Meowdy's clue #3 goes here...", answer: "answer3", bg: "bg-meowdy" },
-      { question: "Meowdy's clue #4 goes here...", answer: "answer4", bg: "bg-meowdy" },
-    ]
+    puzzles: meowdyPuzzles 
   }
 };
+
 const currentPlayer = localStorage.getItem("currentPlayer");
 const puzzleIndex = parseInt(localStorage.getItem("puzzleIndex")) || 0;
 
@@ -34,7 +30,12 @@ const submitBtn = document.getElementById("submitBtn");
 const message = document.getElementById("message");
 const puzzleQuestion = document.getElementById("puzzleQuestion");
 
-puzzleQuestion.innerHTML = puzzleData.question;
+if (puzzleData.type === "hanoi-multi") {
+  puzzleQuestion.innerHTML = "Solve for hints — or guess the answer any time.";
+  initHanoiMulti(puzzleData);
+} else {
+  puzzleQuestion.innerHTML = puzzleData.question;
+}
 
 function submitAnswer() {
   const userText = answerInput.value.trim().toLowerCase();
