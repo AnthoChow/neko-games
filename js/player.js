@@ -52,7 +52,7 @@ function submitAnswer() {
         localStorage.setItem("puzzleIndex", nextIndex);
         window.location.reload();
       } else {
-        window.location.href = "./finished.html";
+        window.location.href = "./minecraftdone.html";
       }
     }, 1000);
   } else {
