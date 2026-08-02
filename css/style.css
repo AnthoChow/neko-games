@@ -191,3 +191,15 @@ body.bg-guest-1 {
 body.bg-guest-2 {
   background-image: url("../assets/minecraft2.png");
 }
+
+body.bg-guest-3 {
+  background-image: url("../assets/minecraft3.png");
+}
+
+body.bg-guest-4 {
+  background-image: url("../assets/minecraft4.png");
+}
+
+body.bg-guest-5 {
+  background-image: url("../assets/minecraft5.png");
+}

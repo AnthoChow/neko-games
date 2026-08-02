@@ -1,6 +1,9 @@
 const guestPuzzles = [
   { question: "/rgualmee ꖌᒷᒷ!¡╎リ⍊ᒷリℸ𝙹∷ǁ ____", answer: "/gamerule keepInventory true", bg: "bg-guest-1" },
   { question: "-.... .--- ---.. .-.. .-. .- -.", answer: "axolotl", bg: "bg-guest-2" },
+  { question: "General public clue #3 goes here...", answer: "answer3", bg: "bg-guest-3" },
+  { question: "General public clue #4 goes here...", answer: "answer4", bg: "bg-guest-4" },
+  { question: "General public clue #5 goes here...", answer: "answer5", bg: "bg-guest-5" },
 ];
 
 const puzzleIndex = parseInt(localStorage.getItem("puzzleIndex")) || 0;
