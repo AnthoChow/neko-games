@@ -31,7 +31,7 @@ const message = document.getElementById("message");
 const puzzleQuestion = document.getElementById("puzzleQuestion");
 
 if (puzzleData.type === "hanoi-multi") {
-  puzzleQuestion.innerHTML = "Solve for hints — or guess the answer any time.";
+  puzzleQuestion.innerHTML = "";
   initHanoiMulti(puzzleData);
 } else {
   puzzleQuestion.innerHTML = puzzleData.question;
