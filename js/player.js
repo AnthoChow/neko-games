@@ -30,6 +30,8 @@ const submitBtn = document.getElementById("submitBtn");
 const message = document.getElementById("message");
 const puzzleQuestion = document.getElementById("puzzleQuestion");
 
+puzzleQuestion.innerHTML = puzzleData.question;
+
 function submitAnswer() {
   const userText = answerInput.value.trim().toLowerCase();
 
