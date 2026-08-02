@@ -204,6 +204,10 @@ body.bg-guest-5 {
   background-image: url("../assets/minecraft5.png");
 }
 
+body.bg-meowdy {
+  background-image: url("../assets/hester-cat.png");
+}
+
 .underline-hint {
   text-decoration: underline;
   text-underline-offset: 4px;
