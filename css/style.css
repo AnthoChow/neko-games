@@ -209,3 +209,13 @@ body.bg-guest-5 {
   text-decoration: underline;
   text-underline-offset: 4px;
 }
+
+body.bg-meowdy {
+  background-image: url("../assets/cats.jpg");
+  background-position: center bottom;
+}
+
+body.bg-gh0st { background-image: url("../assets/bg-gh0st.png"); }
+body.bg-ieme { background-image: url("../assets/bg-ieme.png"); }
+body.bg-recal { background-image: url("../assets/bg-recal.png"); }
+body.bg-doodles { background-image: url("../assets/bg-doodles.png"); }

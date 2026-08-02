@@ -12,4 +12,4 @@ document.querySelectorAll(".player-btn").forEach(btn => {
   });
 });
 
-const players_supported = ["guest", "meowdy"];
+const players_supported = ["guest", "meowdy", "gh0st", "ieme", "recal", "doodles"];

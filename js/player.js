@@ -7,10 +7,12 @@ const players = {
       { question: "eTq3RtM5 - Poem Line #23 - Love", answer: "and the universe said I love you because you are love.", bg: "bg-guest-4" },
     ]
   },
-  meowdy: {
-    puzzles: meowdyPuzzles 
-  }
-};
+  meowdy: { puzzles: meowdyPuzzles },
+  gh0st: { puzzles: gh0stPuzzles },
+  ieme: { puzzles: iemePuzzles },
+  recal: { puzzles: recalPuzzles },
+  doodles: { puzzles: doodlesPuzzles }
+  };
 
 const currentPlayer = localStorage.getItem("currentPlayer");
 const puzzleIndex = parseInt(localStorage.getItem("puzzleIndex")) || 0;
