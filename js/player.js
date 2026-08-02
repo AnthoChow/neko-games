@@ -31,7 +31,7 @@ const message = document.getElementById("message");
 const puzzleQuestion = document.getElementById("puzzleQuestion");
 
 if (puzzleData.type === "hanoi-multi") {
-  puzzleQuestion.innerHTML = "";
+  puzzleQuestion.innerHTML = "Solve the tower and input the answer";
   initHanoiMulti(puzzleData);
 } else {
   puzzleQuestion.innerHTML = puzzleData.question;

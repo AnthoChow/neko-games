@@ -28,7 +28,7 @@ body.bg-meowdy {
   bottom: 0;
   width: 6px;
   height: 130px;
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(0, 0, 0, 0.6);
   border-radius: 3px;
   z-index: 0;
 }
@@ -39,12 +39,12 @@ body.bg-meowdy {
   bottom: 0;
   width: 100px;
   height: 6px;
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(0, 0, 0, 0.6);
   border-radius: 3px;
 }
 
 .peg.selected::before {
-  background: #38bdf8;
+  background: #0ea5e9;
 }
 
 .disk {
@@ -52,7 +52,7 @@ body.bg-meowdy {
   border-radius: 4px;
   margin-bottom: 2px;
   background: linear-gradient(180deg, #38bdf8, #0ea5e9);
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 2px solid #1a1a1a;
   z-index: 1;
 }
 
