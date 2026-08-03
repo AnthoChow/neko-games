@@ -54,9 +54,9 @@ function submitAnswer() {
         localStorage.setItem("puzzleIndex", nextIndex);
         window.location.reload();
       } else if (currentPlayer === "guest") {
-        window.location.href = "./finished.html";
+        window.location.href = "./minecraftdone.html";
       } else {
-        window.location.href = "./finished-players.html";
+        window.location.href = "./nekodone.html";
       }
     }, 1000);
   } else {
