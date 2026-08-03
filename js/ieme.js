@@ -3,7 +3,7 @@ const iemePuzzles = [
   { question: "Drosophila Melanogaster X^wym/X^wym x X^w+y+m+/Y", answer: "100/0+, 0/100M", bg: "bg-ieme" },
   { 
     type: "image", 
-    imageSrc: "assets/ieme-puzzle-2.jpg", 
+    imageSrc: "assets/duckcard.png", 
     answer: "The Apothecary Diaries", 
     bg: "bg-ieme" 
   },
