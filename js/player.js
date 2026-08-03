@@ -53,8 +53,10 @@ function submitAnswer() {
       if (nextIndex < playerData.puzzles.length) {
         localStorage.setItem("puzzleIndex", nextIndex);
         window.location.reload();
+      } else if (currentPlayer === "guest") {
+        window.location.href = "./finished.html";
       } else {
-        window.location.href = "./minecraftdone.html";
+        window.location.href = "./finished-players.html";
       }
     }, 1000);
   } else {
