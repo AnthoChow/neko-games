@@ -223,3 +223,9 @@ body.bg-doodles { background-image: url("../assets/cat5.jpg"); }
 body.bg-finished {
   background-image: url("../assets/finished.png");
 }
+
+.puzzle-image {
+  max-width: 100%;
+  border-radius: 6px;
+  margin: 10px 0;
+}

@@ -32,7 +32,11 @@ const submitBtn = document.getElementById("submitBtn");
 const message = document.getElementById("message");
 const puzzleQuestion = document.getElementById("puzzleQuestion");
 
-puzzleQuestion.innerHTML = puzzleData.question;
+if (puzzleData.type === "image") {
+  puzzleQuestion.innerHTML = `<img src="${puzzleData.imageSrc}" alt="puzzle image" class="puzzle-image" />`;
+} else {
+  puzzleQuestion.innerHTML = puzzleData.question;
+}
 
 function submitAnswer() {
   const userText = answerInput.value.trim().toLowerCase();
