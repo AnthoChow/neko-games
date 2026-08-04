@@ -7,5 +7,5 @@ const iemePuzzles = [
     answer: "The Apothecary Diaries", 
     bg: "bg-ieme" 
   },
-  { question: "Ieme's clue #4 goes here...", answer: "answer4", bg: "bg-ieme" },
+  { question: "World of Digital Creation, Home to Life - ever Knight Turns rouge Vying For zeal blessings - Attraction of the greatest kind, the holiest land", answer: "Sims 4", bg: "bg-ieme" },
 ];
