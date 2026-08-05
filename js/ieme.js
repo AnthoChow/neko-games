@@ -1,6 +1,6 @@
 const iemePuzzles = [
-  { question: "May 26, 2015 Rice", answer: "Woozi", bg: "bg-ieme" },
-  { question: "Drosophila Melanogaster X^wym/X^wym x X^w+y+m+/Y", answer: "100/0+, 0/100M", bg: "bg-ieme" },
+  { question: "May 29, 2015 Rice", answer: "Woozi", bg: "bg-ieme" },
+  { question: "Drosophila Melanogaster X^wym/X^wym x X^w+y+m+/Y, [%F]/[%M]+, [%F]/[%M]M", answer: "100/0+, 0/100M", bg: "bg-ieme" },
   { 
     type: "image", 
     imageSrc: "assets/duckcard.png", 
