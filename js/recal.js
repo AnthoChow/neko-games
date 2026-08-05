@@ -1,5 +1,5 @@
 const recalPuzzles = [
-  { question: "Нечто - Manezhnaya Square", answer: "Valorant", bg: "bg-recal" },
+  { question: "Нечто - Manezhnaya Square", answer: "Sova", bg: "bg-recal" },
   { 
     type: "image", 
     imageSrc: "assets/heartttt.png", 
