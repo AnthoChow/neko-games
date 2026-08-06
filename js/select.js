@@ -13,3 +13,24 @@ document.querySelectorAll(".player-btn").forEach(btn => {
 });
 
 const players_supported = ["guest", "meowdy", "gh0st", "ieme", "recal", "doodles"];
+
+const secretInput = document.getElementById("secretInput");
+const secretSubmitBtn = document.getElementById("secretSubmitBtn");
+
+function checkSecret() {
+  const enteredPassword = secretInput.value.trim().toLowerCase();
+
+  if (enteredPassword === "Atari") {
+    window.location.href = "./final.html";
+  } else {
+    secretInput.value = "";
+    secretInput.placeholder = "incorrect, try again...";
+  }
+}
+
+secretSubmitBtn.addEventListener("click", checkSecret);
+secretInput.addEventListener("keydown", (event) => {
+  if (event.key === "Enter") {
+    checkSecret();
+  }
+});

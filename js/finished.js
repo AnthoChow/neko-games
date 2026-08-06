@@ -1,9 +1,9 @@
 const finishKeys = {
-  meowdy: "MEOWDY_KEY_HERE",
-  gh0st: "GH0ST_KEY_HERE",
-  ieme: "IEME_KEY_HERE",
-  recal: "RECAL_KEY_HERE",
-  doodles: "DOODLES_KEY_HERE",
+  meowdy: "",
+  gh0st: "",
+  ieme: "",
+  recal: "",
+  doodles: "",
 };
 
 const currentPlayer = localStorage.getItem("currentPlayer");

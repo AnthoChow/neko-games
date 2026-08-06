@@ -1,6 +1,6 @@
 const gh0stPuzzles = [
-  { question: "Gh0st's clue #1 goes here...", answer: "answer1", bg: "bg-gh0st" },
-  { question: "Gh0st's clue #2 goes here...", answer: "answer2", bg: "bg-gh0st" },
-  { question: "Gh0st's clue #3 goes here...", answer: "answer3", bg: "bg-gh0st" },
-  { question: "Gh0st's clue #4 goes here...", answer: "answer4", bg: "bg-gh0st" },
+  { question: "Fishbones Explosion", answer: "Timebomb", bg: "bg-gh0st" },
+  { question: "Yummy 218514", answer: "Bread", bg: "bg-gh0st" },
+  { question: "When you're lost in the darkness, look for the light - Xvqqb", answer: "Ellie", bg: "bg-gh0st" },
+  { question: "May 29, 2015 - Diamonds", answer: "Seventeen", bg: "bg-gh0st" },
 ];

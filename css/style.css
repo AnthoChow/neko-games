@@ -229,3 +229,45 @@ body.bg-finished {
   border-radius: 6px;
   margin: 10px 0;
 }
+
+.secret-entry {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.secret-entry input[type="text"] {
+  background: rgba(0, 0, 0, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 2px;
+  padding: 12px 18px;
+  font-size: 14px;
+  font-family: inherit;
+  letter-spacing: 2px;
+  color: #ffffff;
+  outline: none;
+  width: 220px;
+}
+
+.secret-entry input[type="text"]:focus {
+  border-color: rgba(255, 255, 255, 0.7);
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.secret-entry button {
+  background: rgba(0, 0, 0, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 2px;
+  padding: 12px 20px;
+  font-size: 13px;
+  font-family: inherit;
+  letter-spacing: 2px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.secret-entry button:hover {
+  border-color: #ffffff;
+  background: rgba(0, 0, 0, 0.9);
+}
