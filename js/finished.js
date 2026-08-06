@@ -1,9 +1,9 @@
 const finishKeys = {
-  meowdy: "",
-  gh0st: "",
-  ieme: "",
-  recal: "",
-  doodles: "",
+  meowdy: "To strike",
+  gh0st: "Name",
+  ieme: "Console",
+  recal: "Game of Go",
+  doodles: "Fuji",
 };
 
 const currentPlayer = localStorage.getItem("currentPlayer");
