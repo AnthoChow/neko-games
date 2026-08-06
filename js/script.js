@@ -12,7 +12,6 @@ function submitAnswer() {
     return;
   }
 
-  // Check if they typed the first secret word (e.g. "valve")
   if (userText === "valve") {
     message.textContent = "Access Granted! Welcome!";
     message.className = "message success";
