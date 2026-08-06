@@ -20,7 +20,7 @@ const secretSubmitBtn = document.getElementById("secretSubmitBtn");
 function checkSecret() {
   const enteredPassword = secretInput.value.trim().toLowerCase();
 
-  if (enteredPassword === "Atari") {
+  if (enteredPassword === "atari") {
     window.location.href = "./final.html";
   } else {
     secretInput.value = "";
