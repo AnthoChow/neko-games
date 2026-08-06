@@ -234,7 +234,7 @@ body.bg-finished {
   display: flex;
   justify-content: center;
   gap: 10px;
-  margin-top: 800px;
+  margin-top: 80px;
 }
 
 .secret-entry input[type="text"] {
