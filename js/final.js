@@ -12,7 +12,9 @@ I applaud you for your progress.
 I appreciate you for your integrity.
 I cherish you for who you are.
 
-No matter how you are, who you are, how you feel, what you feel, know that you have done so well. For everything. I sincerely thank you for being here. For you are incredible.`;
+No matter how you are, who you are, how you feel, what you feel, know that you have done so well. For everything. I sincerely thank you for being here. 
+
+For you are incredible.`;
 
 document.getElementById("finalText").textContent = message;
 
