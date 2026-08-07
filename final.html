@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Neko Clan Games - The End</title>
+  <title>Neko Clan Games</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,13 +13,15 @@
 </head>
 <body class="bg-final">
 
-  <div class="card-container">
-    <div class="card">
-      <img src="assets/friends-photo.jpg" alt="Our friend group" class="final-photo" />
+  <audio id="finalMusic" src="assets/final-music.mp3" autoplay loop style="display: none;"></audio>
 
-      <a href="assets/friends-photo.jpg" download class="download-btn">Download Photo</a>
+
+  <div class="card-container">
+    <div class="card final-card">
+      <p class="final-text" id="finalText">Loading...</p>
     </div>
   </div>
 
+  <script src="js/final.js"></script>
 </body>
 </html>
